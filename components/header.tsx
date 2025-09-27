@@ -107,10 +107,10 @@ export default function Header() {
     // Setup an interval to refresh the wishlist count every minute
     // const intervalId = setInterval(fetchWishlistCount, 60000);
 
-    const intervalId = setInterval(fetchWishlistCount, 1000);
+    // const intervalId = setInterval(fetchWishlistCount, 1000);
 
     // Clean up on component unmount
-    return () => clearInterval(intervalId);
+    // return () => clearInterval(intervalId);
   }, [status]);
 
   // Fetch categories from the database
