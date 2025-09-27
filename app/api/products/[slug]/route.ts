@@ -127,8 +127,6 @@ export async function PATCH(request: Request, { params }: { params: Promise<{ sl
 }
 
 
-
-
 export async function DELETE(req: Request, { params }: { params: { slug: string } }) {
   try {
     await connectToDatabase()
